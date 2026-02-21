@@ -1,0 +1,6 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "shahbaz-ai": "src.agent.graph:agent"
+  }
+}
