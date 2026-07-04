@@ -3,7 +3,7 @@ name = "shahbaz-ai"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.15"
 dependencies = [
     "ipython>=9.10.0",
     "langchain>=1.2.10",
@@ -32,3 +32,6 @@ url = "https://pypi.org/simple"
 
 [[tool.uv.index]]
 url = "https://download.pytorch.org/whl/cpu"
+
+[tool.poetry]
+package-mode = false
